@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BC4235FD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_design"
+        android:layout_marginTop="90dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sandesh Parajuli"
+            android:textColor="#3949AB"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="80dp"
+            android:fontFamily="casual"
+            />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Switch"
+            android:enabled="true"
+            android:layout_margin="20dp"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

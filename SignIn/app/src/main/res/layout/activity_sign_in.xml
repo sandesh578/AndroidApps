@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SignIn"
+    android:textSize="40sp"
+    android:textColor="@color/purple_700"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    android:layout_margin="15dp"/>
+
+<ImageView
+    android:src="@drawable/profiles"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Email"
+    android:textColor="@color/black"
+    android:textSize="30sp"
+    android:layout_marginTop="15dp"
+    android:textAlignment="center"/>
+
+<EditText
+    android:id="@+id/email_field"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textEmailAddress"
+    android:hint="abc@gmail.com"
+    android:textAlignment="center"
+    android:textColor="@color/black"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Password"
+    android:textAlignment="center"
+    android:textSize="30sp"
+    android:layout_margin="10dp"
+    android:textColor="@color/black"
+    />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/password_field"
+        android:layout_width="320dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/showhide_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:textSize="16sp" />
+
+</LinearLayout>
+
+<Button
+    android:id="@+id/submit_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="145dp"
+    android:text="Submit"
+    android:textSize="20dp"
+    android:textColor="@color/white"
+    android:onClick="displayMessage"/>
+
+</LinearLayout>

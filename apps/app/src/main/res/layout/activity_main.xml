@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_primary_dark"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:src="@drawable/forest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop" />
+
+
+    <ImageView
+        android:src="@drawable/ic_launcher_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_view"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20"
+        android:padding="20"/>
+
+
+    <TextView
+        android:id="@+id/san_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sandesh Parajuli"
+        android:textSize="24sp"
+        android:textColor="@color/purple_700"
+        android:background="@color/teal_700"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/img_view"/>
+
+
+    <TextView
+        android:id="@+id/sg_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sangam giri"
+        android:textSize="24sp"
+        android:padding="5dp"
+        android:textColor="@color/purple_700"
+        android:background="@color/teal_700"
+        android:layout_below="@id/san_view"
+        android:layout_toRightOf="@id/img_view"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prakash Shah"
+        android:textSize="24sp"
+        android:padding="5dp"
+        android:textColor="@color/purple_700"
+        android:background="@color/teal_700"
+        android:layout_toRightOf="@id/img_view"
+        android:layout_below="@id/sg_view"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/nis_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nischit Pudasaini"
+        android:textSize="24sp"
+        android:textColor="@color/purple_700"
+        android:background="@color/teal_700"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abiral Uprety"
+        android:textSize="30sp"
+        android:textColor="@color/purple_700"
+        android:background="@color/teal_700"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/nis_view"
+        android:padding="8dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/convertView"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+  <LinearLayout
+      android:id="@+id/text_container"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:paddingLeft="16dp">
+
+    <TextView
+        android:id="@+id/eng"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Sandesh"
+        android:gravity="bottom"
+        android:textColor="@color/white"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/miok"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Parajuli"
+        android:textColor="@color/white"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:gravity="bottom"
+        android:textStyle="bold"/>
+
+  </LinearLayout>
+    <ImageView
+        android:id="@+id/playbtn"
+        android:src="@drawable/play"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"/>
+    </RelativeLayout>
+</LinearLayout>
